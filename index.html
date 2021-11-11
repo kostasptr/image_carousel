@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="image carousel">
+    <meta name="keywords" content="HTML, SASS, JavaScript">
+    <meta name="author" content="Kostas Petrou">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body onload="Carousel()">
+  <div class="wrapper">
+    
+    <div class="container" id="carousel">
+    <div class="flex-arrows" id="buttons">
+      <button id="larrow">
+        <img src="./images/larrow.svg" width="30" height="30">
+      </button>
+      <button id="rarrow">
+        <img src="./images/rarrow.svg" width="30" height="30">
+      </button>
+    </div>
+
+    <div class="dots" id="dotsSlider">
+      <svg xmlns="http://www.w3.org/2000/svg" width="200" height="30" viewBox="0 0 400 60" id="ante">
+        <rect width="100%" height="100%" fill="none"/>
+      </svg>
+    </div>
+    </div>
+    
+    <div id="detail">
+      <p id="title"></p>
+      <p id="scientific"></p>
+    </div>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+  
+</html>
