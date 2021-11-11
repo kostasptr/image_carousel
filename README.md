@@ -1,6 +1,6 @@
 # 8th project #
 
-***image_carouseln***
+***image_carousel***
 
 * Html
 * SASS
